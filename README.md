@@ -25,6 +25,8 @@ install_github("michbur/dpcR")
 ```
 
 ```RKWard
+To start the GUI in RKWard:
+
 1. Menu -> File -> Open R script file (Ctrl + O)
 2. Paste the URL given above
 3. Run the script
