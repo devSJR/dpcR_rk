@@ -6,10 +6,10 @@ Status of the dpcR package
 
 
 ====
-RKWard plugin for the report generation of digital PCR experiments by dpcReport from the dpcR package.
+RKWard plugin for the report generation of digital PCR experiments by dpcReport from the dpcR package. 
+The most current version of this plugin is available [on github](https://raw.githubusercontent.com/devSJR/dpcR_rk/master/rkwarddev_plugin_script_dpcReport.R). 
 
-
-The most current version of this plugin is available [on github](https://raw.githubusercontent.com/devSJR/dpcR_rk/master/rkwarddev_plugin_script_dpcReport.R). To install it temporarely in RKWard open the script in RKWard:
+To install it temporarely in RKWard open the script in RKWard:
 
 ```rkwarddev
 # This plugin requires the installation of rkwarddev and dpcR (v. 1.4.0 or later)
