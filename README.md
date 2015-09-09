@@ -32,3 +32,5 @@ To start the GUI in RKWard:
    https://raw.githubusercontent.com/devSJR/dpcR_rk/master/rkwarddev_plugin_script_dpcReport.R
 3. Run the script
 ```
+
+![dpcReport RKWard GUI](https://raw.githubusercontent.com/devSJR/dpcR_rk/master/dpcR_rk.png)
