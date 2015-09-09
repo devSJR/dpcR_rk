@@ -1,3 +1,5 @@
+Status of the dpcR package
+
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/dpcR)](http://cran.r-project.org/web/packages/dpcR)
 [![Downloads](http://cranlogs.r-pkg.org/badges/dpcR)](http://cran.rstudio.com/package=dpcR)
 [![Build Status](https://api.travis-ci.org/michbur/dpcR.png)](https://travis-ci.org/michbur/dpcR)
@@ -12,7 +14,8 @@ The most current version of this plugin is available [on github](https://raw.git
 ```rkwarddev
 # This plugin requires the installation of rkwarddev and dpcR (v. 1.4.0 or later)
 # Install rkwarddev and dpcR, if you haven't already.
-# The installation of rkwarddev is described at http://api.kde.org/doc/rkwardplugins/rkwarddev.html
+# The installation of rkwarddev is described at:
+# http://api.kde.org/doc/rkwardplugins/rkwarddev.html
 
 library(devtools)
 install_github("michbur/dpcR")
