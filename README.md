@@ -13,9 +13,12 @@ To install it temporarely in RKWard open the script in RKWard:
 
 ```rkwarddev
 # This plugin requires the installation of rkwarddev and dpcR (v. 1.4.0 or later)
-# Install rkwarddev and dpcR, if you haven't already.
+# Install rkwarddev and dpcR, if you haven't already. It is recommended to use the
+# dpcR version from CRAN.
 # The installation of rkwarddev is described at:
 # http://api.kde.org/doc/rkwardplugins/rkwarddev.html
+
+# The development version of dpcR can be installed from git.
 
 library(devtools)
 install_github("michbur/dpcR")
