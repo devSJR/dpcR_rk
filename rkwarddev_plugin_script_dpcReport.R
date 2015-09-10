@@ -13,10 +13,14 @@ about.info <- rk.XML.about(
   name = "dPCR report",
   author = c(
     person(given = "Stefan", family = "Roediger",
-	    email = "Stefan.RSoediger@b-tu.de", 
-	    role = c("aut","cre"))),
+	    email = "Stefan.Roediger@b-tu.de", 
+	    role = c("aut","cre")),
+    person(given = "Michal", family = "Burdukiewicz",
+	   email = "michalburdukiewicz@gmail.com", 
+	   role = c("aut"))),
     about = list(desc = "GUI interface to generate reports from dPCR experiments.",
-		  version = "0.0.1", url = "")
+		 version = "0.0.1", 
+		 url = "https://raw.githubusercontent.com/devSJR/dpcR_rk/master/rkwarddev_plugin_script_dpcReport.R")
     )
     
 ## Help page
@@ -25,7 +29,7 @@ plugin.summary <- rk.rkh.summary(
   )
 
 plugin.usage <- rk.rkh.usage(
-  "Chose a data set for the dPCR report."
+  "Start the dPCR report from the menu and conduct the analysis in the GUI."
   )
 
 ## Dependencies
