@@ -3,7 +3,7 @@
 # Schierack P. R as an Environment for the Reproducible Analysis of DNA 
 # Amplification Experiments. The R Journal 2015;7:127–50. The dpcReport function
 # from the dpcR package eases the creation of complete reports. This RKWard
-# plugin enabels the access from the GUI menu.
+# plugin enables the access from the GUI menu.
 
 require(rkwarddev)
 
@@ -70,6 +70,8 @@ dpcRreport_menu <<-  rk.plugin.skeleton(
   overwrite = TRUE,
   show = TRUE
   )
+
+rk.build.plugin(dpcRreport_menu, R.libs="~/R", check=TRUE)
 
 })
     
